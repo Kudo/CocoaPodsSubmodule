@@ -1,0 +1,29 @@
+PODS:
+  - Submodule-B (0.0.1)
+  - SubmoduleA (0.0.1)
+
+DEPENDENCIES:
+  - Submodule-B (from `Submodule-B/Submodule-B.podspec`)
+  - SubmoduleA (from `SubmoduleA/SubmoduleA.podspec`)
+
+EXTERNAL SOURCES:
+  Submodule-B:
+    :podspec: Submodule-B/Submodule-B.podspec
+  SubmoduleA:
+    :podspec: SubmoduleA/SubmoduleA.podspec
+
+CHECKOUT OPTIONS:
+  Submodule-B:
+    :commit: 68fcf1732e580351ed4638936183537f7ca4441a
+    :git: file:///Users/kudo/CocoaPodsSubmodule
+  SubmoduleA:
+    :commit: 68fcf1732e580351ed4638936183537f7ca4441a
+    :git: file:///Users/kudo/CocoaPodsSubmodule
+
+SPEC CHECKSUMS:
+  Submodule-B: 4c4922349109e720249ae9372bf8017558b17521
+  SubmoduleA: 2fa324454b99e59263c49b908f480ef847f0fb4d
+
+PODFILE CHECKSUM: 12f002c597e37185d695dcb1e9f03428b0756394
+
+COCOAPODS: 1.11.2
